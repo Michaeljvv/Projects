@@ -19,7 +19,7 @@ def receive_messages(client_socket):
         try:
             message = client_socket.recv(1024).decode('utf-8')
             print(message)
-            update_message_display(f"Server: {message}")
+            update_message_display(f"Client: {message}")
         except Exception as e:
             print(f"Error receiving message: {e}")
             break
@@ -50,7 +50,7 @@ window.title("Tree Messenger")
 style = ttk.Style("darkly")                                                                              
 window.geometry("500x500")                                                                      
 window.resizable(False,False)                                                                   
-img = ttk.PhotoImage(file='../images/Tree.png', width=50)
+img = ttk.PhotoImage(file='c:\Work\Projects\TreeMessanger\Images\Tree.png', width=50)
 window.iconphoto(False, img)
 
 

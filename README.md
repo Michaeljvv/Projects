@@ -1,4 +1,4 @@
-# FOR Tree Messenger
+# For: Tree Messenger
 This repository contains a simple messenger application built with Python that facilitates communication between clients through a server.
 
 - Overview

@@ -50,7 +50,7 @@ window.title("Tree Messenger")
 style = ttk.Style("darkly")                                                                              
 window.geometry("500x500")                                                                      
 window.resizable(False,False)                                                                   
-img = ttk.PhotoImage(file='../Images/Tree.png', width=50)
+img = ttk.PhotoImage(file='../images/Tree.png', width=50)
 window.iconphoto(False, img)
 
 
